@@ -54,7 +54,7 @@ public class RegistryUtil {
 
     private static AipFace client = new AipFace("16751581", "F4GOyU8RvAmOSG0EgxcTCIK2", "GOQaC8myPTGG0cpMa9yL65MvWUtkEmcf");
 
-    @PostConstruct
+    //@PostConstruct
     public void init() throws IOException {
 
         //TODO 1 解析Excel
