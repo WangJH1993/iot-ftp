@@ -25,6 +25,7 @@ public class IotFtpApplication {
         ZeroMQEventSubscriber sub = ctx.getBean(ZeroMQEventSubscriber.class);
         sub.receive();
         System.out.println("111111111111111111111111");
+        System.out.println("111111111111111111111111");
     }
 
 }
