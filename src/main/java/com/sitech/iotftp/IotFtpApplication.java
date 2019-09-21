@@ -18,14 +18,13 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableJpaRepositories(basePackages = {"com.sitech.iotftp.repositories"})//最好添加
 @ImportResource("spring-config.xml")
 public class IotFtpApplication {
-
-
     public static ConfigurableApplicationContext ctx = null;
 
     public static void main(String[] args) throws InterruptedException {
         ctx = SpringApplication.run(IotFtpApplication.class, args);
         ZeroMQEventSubscriber sub = ctx.getBean(ZeroMQEventSubscriber.class);
         sub.receive();
+        System.out.println("111111111111111111111111");
     }
 
 }
