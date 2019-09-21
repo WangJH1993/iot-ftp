@@ -26,6 +26,7 @@ public class IotFtpApplication {
         sub.receive();
         System.out.println("111111111111111111111111");
         System.out.println("111111111111111111111111");
+        System.out.println("111111111111111111111s111");
     }
 
 }
