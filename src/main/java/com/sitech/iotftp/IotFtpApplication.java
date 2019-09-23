@@ -24,12 +24,7 @@ public class IotFtpApplication {
         ctx = SpringApplication.run(IotFtpApplication.class, args);
         ZeroMQEventSubscriber sub = ctx.getBean(ZeroMQEventSubscriber.class);
         sub.receive();
-        System.out.println("111111111111111111111111");
-        System.out.println("111111111111111111111111");
-        System.out.println("111111111111111111111s111");
-        System.out.println("111111111111111111111s111");
-        System.out.println("111111111111111111111s111ssss");
-        System.out.println("sssssssssssssssssssssssss");
+        System.out.println("当前分支是：test112");
     }
 
 }
